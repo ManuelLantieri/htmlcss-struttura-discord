@@ -9,13 +9,6 @@
 }
 
 /* ----------------------------
-            GENERAL
------------------------------- */
-
-
-
-
-/* ----------------------------
             HEADER
 ------------------------------ */
 
@@ -32,7 +25,7 @@
 
 /* header top */
 
-.header-top > .container{
+.header-top .container{
     display: flex;
     background-color: #daa520;
 }
