@@ -12,6 +12,24 @@
             HEADER
 ------------------------------ */
 
+.debug .header-top{
+    background-color: #add8e6;
+}
+
+.debug .header-top .container{
+    background-color: #daa520;
+}
+
+.debug .header-top .container > *{
+        border: 1px dashed black;
+}
+
+
+
+/* ----------------------------
+            HEADER
+------------------------------ */
+
 .header-top .container{
     max-width: 1200px;
     margin-left: auto;
@@ -19,19 +37,17 @@
 }
 
 .header-top{
-    background-color: #add8e6;
     padding: 15px 0;
 }
 
 /* header top */
 
 .header-top .container{
-    display: flex;
-    background-color: #daa520;
+    display: flex; 
 }
 
 .header-top .container > *{
-    border: 1px dashed black;
+
     padding: 2px 15px;
 }
 
@@ -88,14 +104,12 @@ section .container{
 
 .col-big{
     width: 66%;
-    height: auto;
     background-color: #1e90ff;
     border: 1px dashed black
 }
 
 .col-small{
     width: 34%;
-    height: auto;
     background-color: #ffc0cb;
     border: 1px dashed black
 }
