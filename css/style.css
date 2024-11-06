@@ -53,8 +53,8 @@
 /* header nottom */
 
 .header-bottom .container{
-    width: 900px;
-    height: 400px;
+    max-width: 900px;
+    min-height: 400px;
     margin-left: auto;
     margin-right: auto;
     background-color: #ee82ee;
@@ -78,8 +78,8 @@ section{
 }
 
 section .container{
-    width: 1200px;
-    height: 500px;
+    max-width: 1200px;
+    min-height: 500px;
     margin-left:auto;
     margin-right: auto;
     display: flex;
@@ -109,8 +109,8 @@ section .container{
 }
 
 #last-section .container{
-    width: 1200px;
-    height: 900px;
+    max-width: 1200px;
+    min-height: 900px;
     margin-left: auto;
     margin-right: auto;
     background-color: #228b22;
@@ -136,8 +136,8 @@ hr{
 }
 
 .footer-top .container{
-    width: 1200px;
-    height: 575px;
+    max-width: 1200px;
+    min-height: 575px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
